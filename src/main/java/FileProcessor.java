@@ -17,10 +17,10 @@ public class FileProcessor
      *
      * @return a List of plays that are represented using list.
      */
-    public List<List<String>> readPlays()
+    public List<List<String>> readPlays(String fileName)
     {
         ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource("RealMadrid.txt").getFile());
+        File file = new File(classLoader.getResource(fileName).getFile());
 
         List<List<String>> result = new ArrayList<>(20);
         try (Scanner scanner = new Scanner(file))

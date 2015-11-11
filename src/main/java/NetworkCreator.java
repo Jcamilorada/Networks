@@ -16,6 +16,7 @@ public class NetworkCreator
     private Map<String, List<String>> nodeInstances = new HashMap<>(10);
     private List<String> links = new ArrayList<>(150);
 
+    private boolean useSameInstance = true;
     /**
      * Create the network representation of the given list.
      *
@@ -24,8 +25,10 @@ public class NetworkCreator
      *
      * @return the network representation of the given list.
      */
-    public Network createNetwork(List<List<String>> plays, boolean linkSamePlayer)
+    public Network createNetwork(List<List<String>> plays, boolean linkSamePlayer, boolean useSameInstance)
     {
+        this.useSameInstance = useSameInstance;
+
         Set<String> nodes = new HashSet<>(50);
 
         for (List<String> play : plays)
@@ -71,7 +74,7 @@ public class NetworkCreator
         int value = nodeCounts.containsKey(playerId) ? nodeCounts.get(playerId) + 1 : 1;
         nodeCounts.put(playerId, value);
 
-        return String.format("p%s_%s", playerId, value);
+        return useSameInstance ? playerId : String.format("p%s_%s", playerId, value);
     }
 
     public String getLink(String nodeA, String nodeB)
