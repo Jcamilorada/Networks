@@ -16,65 +16,38 @@ public class NetworkCreator
     private Map<String, List<String>> nodeInstances = new HashMap<>(10);
     private List<String> links = new ArrayList<>(150);
 
-    private boolean useSameInstance = true;
     /**
      * Create the network representation of the given list.
      *
-     * @param plays the list of plays.
-     * @param linkSamePlayer boolean flag to indicate if links all players nodes with the main one.
+     * @param gameData specific game information
      *
      * @return the network representation of the given list.
      */
-    public Network createNetwork(List<List<String>> plays, boolean linkSamePlayer, boolean useSameInstance)
+    public MatchNetworks createNetworks(GameData gameData)
     {
-        this.useSameInstance = useSameInstance;
+        return new MatchNetworks(getNetwork(gameData.getTeamA()), getNetwork(gameData.getTeamB()));
+    }
 
+    Network getNetwork(List<PlayerGameData> playerGameDataList)
+    {
+        Map<Integer, String> playerIndexNameMap = getIndexPlayerNameMap(playerGameDataList);
         Set<String> nodes = new HashSet<>(50);
 
-        for (List<String> play : plays)
+        for (PlayerGameData playerGameData : playerGameDataList)
         {
-            String currentNode = increaseNode(play.get(0));
-
+            String currentNode = playerGameData.getName();
             nodes.add(currentNode);
-            addInstance(play.get(0), currentNode);
 
-            int playSize = play.size();
-            for (String playerId : play.subList(1, playSize))
+            List<Integer> passesInformation = playerGameData.getPassesInformation();
+            int passesListSize = passesInformation.size();
+
+            for (int i = 0; i < passesListSize; i++)
             {
-                String nodeName = this.increaseNode(playerId);
-                links.add(getLink(currentNode, nodeName));
-
-                currentNode = nodeName;
-
-                nodes.add(currentNode);
-                addInstance(playerId, currentNode);
-            }
-        }
-
-        // Links nodes of the same player
-        if (linkSamePlayer)
-        {
-            for (Map.Entry<String, List<String>> entry : nodeInstances.entrySet())
-            {
-                String mainNodeName = String.format("p%s", entry.getKey());
-                nodes.add(mainNodeName);
-
-                for (String nodeName : entry.getValue())
-                {
-                    links.add(getLink(mainNodeName, nodeName));
-                }
+                addLinks(getLink(currentNode, playerIndexNameMap.get(i)), passesInformation.get(i));
             }
         }
 
         return new Network(nodes, links);
-    }
-
-    public String increaseNode(String playerId)
-    {
-        int value = nodeCounts.containsKey(playerId) ? nodeCounts.get(playerId) + 1 : 1;
-        nodeCounts.put(playerId, value);
-
-        return useSameInstance ? playerId : String.format("p%s_%s", playerId, value);
     }
 
     public String getLink(String nodeA, String nodeB)
@@ -89,5 +62,27 @@ public class NetworkCreator
 
         instances.add(nodeName);
         nodeInstances.put(playerId, instances);
+    }
+
+    private void addLinks(String link, int passesNumber)
+    {
+        for (int i = 0; i < passesNumber; i++)
+        {
+            links.add(link);
+        }
+    }
+
+    private Map<Integer, String> getIndexPlayerNameMap(List<PlayerGameData> playerGameDataList)
+    {
+        Map<Integer, String> indexNumberMap = new HashMap<>(playerGameDataList.size());
+
+        int index = 0;
+        for (PlayerGameData playerGameData : playerGameDataList)
+        {
+            indexNumberMap.put(index, playerGameData.getName());
+            index++;
+        }
+
+        return indexNumberMap;
     }
 }

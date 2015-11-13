@@ -8,20 +8,13 @@ public class ProcessorTest
     private NetworkCreator networkCreator = new NetworkCreator();
 
     @Test
-    public void generateCaliNetwork()
+    public void generateNetworksInformation()
     {
-        List<List<String>> plays =  fileProcessor.readPlays("Cali.txt");
-        Network network = networkCreator.createNetwork(plays, false, true);
+        GameData data  = fileProcessor.readPlays("body_example.csv");
+        MatchNetworks networks = networkCreator.createNetworks(data);
 
-        System.out.println(network.getRelations().toString());
-    }
-
-    @Test
-    public void generateMadridNetwork()
-    {
-        List<List<String>> plays =  fileProcessor.readPlays("Cali.txt");
-        Network network = networkCreator.createNetwork(plays, false, true);
-
-        System.out.println(network.getRelations().toString());
+        System.out.println(networks.getNetworkTeamA().getRelations().toString());
+        System.out.println("------------");
+        System.out.println(networks.getNetworkTeamB().getRelations().toString());
     }
 }
