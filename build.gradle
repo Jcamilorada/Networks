@@ -1,4 +1,4 @@
-group 'Network'
+group 'co.edu.univalle.networks.Network'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
