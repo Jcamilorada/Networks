@@ -1,3 +1,5 @@
+package co.edu.univalle.networks;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

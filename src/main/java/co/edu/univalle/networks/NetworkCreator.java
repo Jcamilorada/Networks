@@ -1,3 +1,5 @@
+package co.edu.univalle.networks;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -28,7 +30,7 @@ public class NetworkCreator
         return new MatchNetworks(getNetwork(gameData.getTeamA()), getNetwork(gameData.getTeamB()));
     }
 
-    Network getNetwork(List<PlayerGameData> playerGameDataList)
+    private Network getNetwork(List<PlayerGameData> playerGameDataList)
     {
         Map<Integer, String> playerIndexNameMap = getIndexPlayerNameMap(playerGameDataList);
         Set<String> nodes = new HashSet<>(50);
@@ -50,12 +52,12 @@ public class NetworkCreator
         return new Network(nodes, links);
     }
 
-    public String getLink(String nodeA, String nodeB)
+    private String getLink(String nodeA, String nodeB)
     {
         return String.format("\"%s\"->\"%s\"", nodeA, nodeB);
     }
 
-    public void addInstance(String playerId, String nodeName)
+    private void addInstance(String playerId, String nodeName)
     {
         List<String> instances = nodeInstances.containsKey(playerId) ?
             nodeInstances.get(playerId) : new ArrayList<String>(1);

@@ -1,4 +1,6 @@
+package co.edu.univalle.networks;
 
+import java.io.FileNotFoundException;
 import org.apache.commons.lang.WordUtils;
 
 import java.io.File;
@@ -18,6 +20,9 @@ public class FileProcessor
     private static final String NUMBER_WITH_SPACES_REGEX = "([0-9]+)\\s([0-9]+)";
     private static final String FIRST_COLUMN_WORD = "From";
     private static final String LAST_COLUMN_WORD = "Total passes received";
+    public static final String IS_NUMBER_REGEX = "[0-9]";
+    public static final String IS_NOT_NUMBER_REGEX = "[^0-9]";
+    public static final String FILE_STRING_SEPARATOR = ",";
 
     /**
      * Read the resource file and generated a list with the play of the game.
@@ -40,7 +45,7 @@ public class FileProcessor
             while (scanner.hasNextLine())
             {
                 String lineValue = scanner.nextLine();
-                String firstLineWord = lineValue.split(",")[0].trim();
+                String firstLineWord = lineValue.split(FILE_STRING_SEPARATOR)[0].trim();
 
                 if (procesingMode == ProcesingMode.SecondTeam && firstLineWord.equals(LAST_COLUMN_WORD))
                 {
@@ -85,12 +90,32 @@ public class FileProcessor
         return new GameData(teamA, teamB);
     }
 
+    public GameMetada getGameMetaData(String fileName)
+    {
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource(fileName).getFile());
+
+        try (Scanner scanner = new Scanner(file))
+        {
+            while (scanner.hasNextLine())
+            {
+                String line = scanner.nextLine();
+
+            }
+        }
+        catch (FileNotFoundException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
     private PlayerGameData processLine(String line)
     {
-        List<String> lineValues = Arrays.asList(line.split(","));
+        List<String> lineValues = Arrays.asList(line.split(FILE_STRING_SEPARATOR));
 
-        String playerName = WordUtils.capitalizeFully(lineValues.get(0).replaceAll("[0-9]","").trim());
-        int playerNumber = Integer.parseInt(lineValues.get(0).replaceAll("[^0-9]","").trim());
+        String playerSectionInfo = lineValues.get(0).trim();
+        String playerName = WordUtils.capitalizeFully(playerSectionInfo.replaceAll(IS_NUMBER_REGEX, ""));
+        int playerNumber = Integer.parseInt(playerSectionInfo.replaceAll(IS_NOT_NUMBER_REGEX, ""));
 
         List<String> passesData = lineValues.subList(2, lineValues.size());
         List<Integer> playerData = new ArrayList<>(passesData.size());
