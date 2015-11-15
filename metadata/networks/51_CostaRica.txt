@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Keylor Navas", "playerNumber" -> 1, "country" -> "CostaRica" |>,
+<| "playerName" -> "Christian Bolanos", "playerNumber" -> 7, "country" -> "CostaRica" |>,
+<| "playerName" -> "Joel Campbell", "playerNumber" -> 9, "country" -> "CostaRica" |>,
+<| "playerName" -> "Cristian Gamboa", "playerNumber" -> 16, "country" -> "CostaRica" |>,
+<| "playerName" -> "Yeltsin Tejeda", "playerNumber" -> 17, "country" -> "CostaRica" |>,
+<| "playerName" -> "Marcos Urena", "playerNumber" -> 21, "country" -> "CostaRica" |>,
+<| "playerName" -> "Bryan Ruiz", "playerNumber" -> 10, "country" -> "CostaRica" |>,
+<| "playerName" -> "Oscar Duarte", "playerNumber" -> 6, "country" -> "CostaRica" |>,
+<| "playerName" -> "Randall Brenes", "playerNumber" -> 14, "country" -> "CostaRica" |>,
+<| "playerName" -> "Celso Borges", "playerNumber" -> 5, "country" -> "CostaRica" |>,
+<| "playerName" -> "Michael Barrantes", "playerNumber" -> 11, "country" -> "CostaRica" |>,
+<| "playerName" -> "Giancarlo Gonzalez", "playerNumber" -> 3, "country" -> "CostaRica" |>,
+<| "playerName" -> "Roy Miller", "playerNumber" -> 19, "country" -> "CostaRica" |>,
+<| "playerName" -> "Junior Diaz", "playerNumber" -> 15, "country" -> "CostaRica" |>
+};

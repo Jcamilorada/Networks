@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Thiago Motta", "playerNumber" -> 5, "country" -> "Italy" |>,
+<| "playerName" -> "Andrea Barzagli", "playerNumber" -> 15, "country" -> "Italy" |>,
+<| "playerName" -> "Gianluigi Buffon", "playerNumber" -> 1, "country" -> "Italy" |>,
+<| "playerName" -> "Giorgio Chiellini", "playerNumber" -> 3, "country" -> "Italy" |>,
+<| "playerName" -> "Matteo Darmian", "playerNumber" -> 4, "country" -> "Italy" |>,
+<| "playerName" -> "Mario Balotelli", "playerNumber" -> 9, "country" -> "Italy" |>,
+<| "playerName" -> "Lorenzo Insigne", "playerNumber" -> 22, "country" -> "Italy" |>,
+<| "playerName" -> "Antonio Candreva", "playerNumber" -> 6, "country" -> "Italy" |>,
+<| "playerName" -> "Ignazio Abate", "playerNumber" -> 7, "country" -> "Italy" |>,
+<| "playerName" -> "Claudio Marchisio", "playerNumber" -> 8, "country" -> "Italy" |>,
+<| "playerName" -> "Daniele De Rossi", "playerNumber" -> 16, "country" -> "Italy" |>,
+<| "playerName" -> "Andrea Pirlo", "playerNumber" -> 21, "country" -> "Italy" |>,
+<| "playerName" -> "Alessio Cerci", "playerNumber" -> 11, "country" -> "Italy" |>,
+<| "playerName" -> "Antonio Cassano", "playerNumber" -> 10, "country" -> "Italy" |>
+};

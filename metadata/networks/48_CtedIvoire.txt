@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Georgios Karagounis", "playerNumber" -> 10, "country" -> "Greece" |>,
+<| "playerName" -> "Andreas Samaris", "playerNumber" -> 22, "country" -> "Greece" |>,
+<| "playerName" -> "Theofanis Gekas", "playerNumber" -> 17, "country" -> "Greece" |>,
+<| "playerName" -> "Orestis Karnezis", "playerNumber" -> 1, "country" -> "Greece" |>,
+<| "playerName" -> "Panagiotis Kone", "playerNumber" -> 8, "country" -> "Greece" |>,
+<| "playerName" -> "Dimitrios Salpingidis", "playerNumber" -> 14, "country" -> "Greece" |>,
+<| "playerName" -> "Jose Cholevas", "playerNumber" -> 20, "country" -> "Greece" |>,
+<| "playerName" -> "Vasileios Torosidis", "playerNumber" -> 15, "country" -> "Greece" |>,
+<| "playerName" -> "Georgios Samaras", "playerNumber" -> 7, "country" -> "Greece" |>,
+<| "playerName" -> "Konstantinos Manolas", "playerNumber" -> 4, "country" -> "Greece" |>,
+<| "playerName" -> "Ioannis Maniatis", "playerNumber" -> 2, "country" -> "Greece" |>,
+<| "playerName" -> "Lazaros Christodoulopoulos", "playerNumber" -> 16, "country" -> "Greece" |>,
+<| "playerName" -> "Sokratis Papastathopoulos", "playerNumber" -> 19, "country" -> "Greece" |>,
+<| "playerName" -> "Panagiotis Glykos", "playerNumber" -> 12, "country" -> "Greece" |>
+};

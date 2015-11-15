@@ -1,0 +1,15 @@
+data = { 
+<| "playerName" -> "Michael Babatunde", "playerNumber" -> 18, "country" -> "Nigeria" |>,
+<| "playerName" -> "Ogenyi Onazi", "playerNumber" -> 17, "country" -> "Nigeria" |>,
+<| "playerName" -> "Efe Ambrose", "playerNumber" -> 5, "country" -> "Nigeria" |>,
+<| "playerName" -> "Juwon Oshaniwa", "playerNumber" -> 13, "country" -> "Nigeria" |>,
+<| "playerName" -> "Peter Odemwingie", "playerNumber" -> 8, "country" -> "Nigeria" |>,
+<| "playerName" -> "Kenneth Omeruo", "playerNumber" -> 22, "country" -> "Nigeria" |>,
+<| "playerName" -> "Ejike Uzoenyi", "playerNumber" -> 3, "country" -> "Nigeria" |>,
+<| "playerName" -> "John Obi Mikel", "playerNumber" -> 10, "country" -> "Nigeria" |>,
+<| "playerName" -> "Ahmed Musa", "playerNumber" -> 7, "country" -> "Nigeria" |>,
+<| "playerName" -> "Emmanuel Emenike", "playerNumber" -> 9, "country" -> "Nigeria" |>,
+<| "playerName" -> "Shola Ameobi", "playerNumber" -> 23, "country" -> "Nigeria" |>,
+<| "playerName" -> "Joseph Yobo", "playerNumber" -> 2, "country" -> "Nigeria" |>,
+<| "playerName" -> "Vincent Enyeama", "playerNumber" -> 1, "country" -> "Nigeria" |>
+};

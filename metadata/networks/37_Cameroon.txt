@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Vincent Aboubakar", "playerNumber" -> 10, "country" -> "Cameroon" |>,
+<| "playerName" -> "Pierre Webo", "playerNumber" -> 15, "country" -> "Cameroon" |>,
+<| "playerName" -> "Joel Matip", "playerNumber" -> 21, "country" -> "Cameroon" |>,
+<| "playerName" -> "Charles Itandje", "playerNumber" -> 16, "country" -> "Cameroon" |>,
+<| "playerName" -> "Stephane Mbia", "playerNumber" -> 17, "country" -> "Cameroon" |>,
+<| "playerName" -> "Eric Choupo Moting", "playerNumber" -> 13, "country" -> "Cameroon" |>,
+<| "playerName" -> "Edgar Salli", "playerNumber" -> 20, "country" -> "Cameroon" |>,
+<| "playerName" -> "Nicolas Nkoulou", "playerNumber" -> 3, "country" -> "Cameroon" |>,
+<| "playerName" -> "Eyong Enoh", "playerNumber" -> 18, "country" -> "Cameroon" |>,
+<| "playerName" -> "Benjamin Moukandjo", "playerNumber" -> 8, "country" -> "Cameroon" |>,
+<| "playerName" -> "Jean Makoun", "playerNumber" -> 11, "country" -> "Cameroon" |>,
+<| "playerName" -> "Allan Nyom", "playerNumber" -> 22, "country" -> "Cameroon" |>,
+<| "playerName" -> "Henri Bedimo", "playerNumber" -> 12, "country" -> "Cameroon" |>,
+<| "playerName" -> "Landry Nguemo", "playerNumber" -> 7, "country" -> "Cameroon" |>
+};

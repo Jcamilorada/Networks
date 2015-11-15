@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Thomas Mueller", "playerNumber" -> 13, "country" -> "Germany" |>,
+<| "playerName" -> "Bastian Schweinsteiger", "playerNumber" -> 7, "country" -> "Germany" |>,
+<| "playerName" -> "Per Mertesacker", "playerNumber" -> 17, "country" -> "Germany" |>,
+<| "playerName" -> "Jerome Boateng", "playerNumber" -> 20, "country" -> "Germany" |>,
+<| "playerName" -> "Mario Goetze", "playerNumber" -> 19, "country" -> "Germany" |>,
+<| "playerName" -> "Benedikt Hoewedes", "playerNumber" -> 4, "country" -> "Germany" |>,
+<| "playerName" -> "Manuel Neuer", "playerNumber" -> 1, "country" -> "Germany" |>,
+<| "playerName" -> "Philipp Lahm", "playerNumber" -> 16, "country" -> "Germany" |>,
+<| "playerName" -> "Toni Kroos", "playerNumber" -> 18, "country" -> "Germany" |>,
+<| "playerName" -> "Christoph Kramer", "playerNumber" -> 23, "country" -> "Germany" |>,
+<| "playerName" -> "Miroslav Klose", "playerNumber" -> 11, "country" -> "Germany" |>,
+<| "playerName" -> "Mesut Oezil", "playerNumber" -> 8, "country" -> "Germany" |>,
+<| "playerName" -> "Mats Hummels", "playerNumber" -> 5, "country" -> "Germany" |>,
+<| "playerName" -> "Andre Schuerrle", "playerNumber" -> 9, "country" -> "Germany" |>
+};

@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Mauricio Isla", "playerNumber" -> 4, "country" -> "Chile" |>,
+<| "playerName" -> "Mauricio Pinilla", "playerNumber" -> 9, "country" -> "Chile" |>,
+<| "playerName" -> "Jean Beausejour", "playerNumber" -> 15, "country" -> "Chile" |>,
+<| "playerName" -> "Marcelo Diaz", "playerNumber" -> 21, "country" -> "Chile" |>,
+<| "playerName" -> "Felipe Gutierrez", "playerNumber" -> 16, "country" -> "Chile" |>,
+<| "playerName" -> "Gary Medel", "playerNumber" -> 17, "country" -> "Chile" |>,
+<| "playerName" -> "Eduardo Vargas", "playerNumber" -> 11, "country" -> "Chile" |>,
+<| "playerName" -> "Gonzalo Jara", "playerNumber" -> 18, "country" -> "Chile" |>,
+<| "playerName" -> "Jorge Valdivia", "playerNumber" -> 10, "country" -> "Chile" |>,
+<| "playerName" -> "Alexis Sanchez", "playerNumber" -> 7, "country" -> "Chile" |>,
+<| "playerName" -> "Arturo Vidal", "playerNumber" -> 8, "country" -> "Chile" |>,
+<| "playerName" -> "Eugenio Mena", "playerNumber" -> 2, "country" -> "Chile" |>,
+<| "playerName" -> "Claudio Bravo", "playerNumber" -> 1, "country" -> "Chile" |>,
+<| "playerName" -> "Charles Aranguiz", "playerNumber" -> 20, "country" -> "Chile" |>
+};

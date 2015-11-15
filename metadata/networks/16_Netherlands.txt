@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Ben Halloran", "playerNumber" -> 10, "country" -> "Australia" |>,
+<| "playerName" -> "Mark Bresciano", "playerNumber" -> 23, "country" -> "Australia" |>,
+<| "playerName" -> "Oliver Bozanic", "playerNumber" -> 13, "country" -> "Australia" |>,
+<| "playerName" -> "Matt Mckay", "playerNumber" -> 17, "country" -> "Australia" |>,
+<| "playerName" -> "Tim Cahill", "playerNumber" -> 4, "country" -> "Australia" |>,
+<| "playerName" -> "Ryan Mcgowan", "playerNumber" -> 19, "country" -> "Australia" |>,
+<| "playerName" -> "Mile Jedinak", "playerNumber" -> 15, "country" -> "Australia" |>,
+<| "playerName" -> "Maty Ryan", "playerNumber" -> 1, "country" -> "Australia" |>,
+<| "playerName" -> "Jason Davidson", "playerNumber" -> 3, "country" -> "Australia" |>,
+<| "playerName" -> "Adam Taggart", "playerNumber" -> 9, "country" -> "Australia" |>,
+<| "playerName" -> "Tommy Oar", "playerNumber" -> 11, "country" -> "Australia" |>,
+<| "playerName" -> "Alex Wilkinson", "playerNumber" -> 22, "country" -> "Australia" |>,
+<| "playerName" -> "Matthew Spiranovic", "playerNumber" -> 6, "country" -> "Australia" |>,
+<| "playerName" -> "Mathew Leckie", "playerNumber" -> 7, "country" -> "Australia" |>
+};

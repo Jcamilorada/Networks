@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Cristian Rodriguez", "playerNumber" -> 7, "country" -> "Uruguay" |>,
+<| "playerName" -> "Martin Caceres", "playerNumber" -> 22, "country" -> "Uruguay" |>,
+<| "playerName" -> "Abel Hernandez", "playerNumber" -> 8, "country" -> "Uruguay" |>,
+<| "playerName" -> "Diego Lugano", "playerNumber" -> 2, "country" -> "Uruguay" |>,
+<| "playerName" -> "Egidio Arevalo", "playerNumber" -> 17, "country" -> "Uruguay" |>,
+<| "playerName" -> "Cristhian Stuani", "playerNumber" -> 11, "country" -> "Uruguay" |>,
+<| "playerName" -> "Diego Forlan", "playerNumber" -> 10, "country" -> "Uruguay" |>,
+<| "playerName" -> "Alvaro Gonzalez", "playerNumber" -> 20, "country" -> "Uruguay" |>,
+<| "playerName" -> "Maximiliano Pereira", "playerNumber" -> 16, "country" -> "Uruguay" |>,
+<| "playerName" -> "Edinson Cavani", "playerNumber" -> 21, "country" -> "Uruguay" |>,
+<| "playerName" -> "Walter Gargano", "playerNumber" -> 5, "country" -> "Uruguay" |>,
+<| "playerName" -> "Diego Godin", "playerNumber" -> 3, "country" -> "Uruguay" |>,
+<| "playerName" -> "Fernando Muslera", "playerNumber" -> 1, "country" -> "Uruguay" |>,
+<| "playerName" -> "Nicolas Lodeiro", "playerNumber" -> 14, "country" -> "Uruguay" |>
+};

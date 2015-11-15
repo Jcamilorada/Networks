@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Aissa Mandi", "playerNumber" -> 20, "country" -> "Algeria" |>,
+<| "playerName" -> "Hassan Yebda", "playerNumber" -> 7, "country" -> "Algeria" |>,
+<| "playerName" -> "Nabil Bentaleb", "playerNumber" -> 14, "country" -> "Algeria" |>,
+<| "playerName" -> "Islam Slimani", "playerNumber" -> 13, "country" -> "Algeria" |>,
+<| "playerName" -> "Yacine Brahimi", "playerNumber" -> 11, "country" -> "Algeria" |>,
+<| "playerName" -> "Rais Mbolhi", "playerNumber" -> 23, "country" -> "Algeria" |>,
+<| "playerName" -> "Carl Medjani", "playerNumber" -> 12, "country" -> "Algeria" |>,
+<| "playerName" -> "Abdelmoumene Djabou", "playerNumber" -> 18, "country" -> "Algeria" |>,
+<| "playerName" -> "Sofiane Feghouli", "playerNumber" -> 10, "country" -> "Algeria" |>,
+<| "playerName" -> "Nabil Ghilas", "playerNumber" -> 9, "country" -> "Algeria" |>,
+<| "playerName" -> "Rafik Halliche", "playerNumber" -> 5, "country" -> "Algeria" |>,
+<| "playerName" -> "Esseid Belkalem", "playerNumber" -> 4, "country" -> "Algeria" |>,
+<| "playerName" -> "Djamel Mesbah", "playerNumber" -> 6, "country" -> "Algeria" |>,
+<| "playerName" -> "El Arabi Soudani", "playerNumber" -> 15, "country" -> "Algeria" |>
+};

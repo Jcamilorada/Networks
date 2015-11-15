@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Salomon Kalou", "playerNumber" -> 8, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Serge Aurier", "playerNumber" -> 17, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Didier Drogba", "playerNumber" -> 11, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Boubacar Barry", "playerNumber" -> 1, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Ismael Tiote", "playerNumber" -> 9, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Arthur Boka", "playerNumber" -> 3, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Souleymane Bamba", "playerNumber" -> 22, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Constant Djakpa", "playerNumber" -> 18, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Didier Zokora", "playerNumber" -> 5, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Wilfried Bony", "playerNumber" -> 12, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Konan Ya", "playerNumber" -> 13, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Gervinho", "playerNumber" -> 10, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Yaya Toure", "playerNumber" -> 19, "country" -> "CtedIvoire" |>,
+<| "playerName" -> "Die Serey", "playerNumber" -> 20, "country" -> "CtedIvoire" |>
+};

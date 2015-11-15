@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Marcos Rojo", "playerNumber" -> 16, "country" -> "Argentina" |>,
+<| "playerName" -> "Javier Mascherano", "playerNumber" -> 14, "country" -> "Argentina" |>,
+<| "playerName" -> "Fernando Gago", "playerNumber" -> 5, "country" -> "Argentina" |>,
+<| "playerName" -> "Ezequiel Garay", "playerNumber" -> 2, "country" -> "Argentina" |>,
+<| "playerName" -> "Rodrigo Palacio", "playerNumber" -> 18, "country" -> "Argentina" |>,
+<| "playerName" -> "Lucas Biglia", "playerNumber" -> 6, "country" -> "Argentina" |>,
+<| "playerName" -> "Sergio Aguero", "playerNumber" -> 20, "country" -> "Argentina" |>,
+<| "playerName" -> "Ezequiel Lavezzi", "playerNumber" -> 22, "country" -> "Argentina" |>,
+<| "playerName" -> "Federico Fernandez", "playerNumber" -> 17, "country" -> "Argentina" |>,
+<| "playerName" -> "Lionel Messi", "playerNumber" -> 10, "country" -> "Argentina" |>,
+<| "playerName" -> "Angel Di Maria", "playerNumber" -> 7, "country" -> "Argentina" |>,
+<| "playerName" -> "Pablo Zabaleta", "playerNumber" -> 4, "country" -> "Argentina" |>,
+<| "playerName" -> "Gonzalo Higuain", "playerNumber" -> 9, "country" -> "Argentina" |>,
+<| "playerName" -> "Sergio Romero", "playerNumber" -> 1, "country" -> "Argentina" |>
+};

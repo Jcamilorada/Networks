@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Bruno Martins Indi", "playerNumber" -> 4, "country" -> "Netherlands" |>,
+<| "playerName" -> "Daley Blind", "playerNumber" -> 5, "country" -> "Netherlands" |>,
+<| "playerName" -> "Wesley Sneijder", "playerNumber" -> 10, "country" -> "Netherlands" |>,
+<| "playerName" -> "Jasper Cillessen", "playerNumber" -> 1, "country" -> "Netherlands" |>,
+<| "playerName" -> "Klaas Jan Huntelaar", "playerNumber" -> 19, "country" -> "Netherlands" |>,
+<| "playerName" -> "Robin Van Persie", "playerNumber" -> 9, "country" -> "Netherlands" |>,
+<| "playerName" -> "Tim Krul", "playerNumber" -> 23, "country" -> "Netherlands" |>,
+<| "playerName" -> "Jeremain Lens", "playerNumber" -> 17, "country" -> "Netherlands" |>,
+<| "playerName" -> "Ron Vlaar", "playerNumber" -> 2, "country" -> "Netherlands" |>,
+<| "playerName" -> "Arjen Robben", "playerNumber" -> 11, "country" -> "Netherlands" |>,
+<| "playerName" -> "Stefan De Vrij", "playerNumber" -> 3, "country" -> "Netherlands" |>,
+<| "playerName" -> "Georginio Wijnaldum", "playerNumber" -> 20, "country" -> "Netherlands" |>,
+<| "playerName" -> "Memphis Depay", "playerNumber" -> 21, "country" -> "Netherlands" |>,
+<| "playerName" -> "Dirk Kuyt", "playerNumber" -> 15, "country" -> "Netherlands" |>
+};

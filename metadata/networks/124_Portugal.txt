@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Clint Dempsey", "playerNumber" -> 8, "country" -> "USA" |>,
+<| "playerName" -> "Matt Besler", "playerNumber" -> 5, "country" -> "USA" |>,
+<| "playerName" -> "Michael Bradley", "playerNumber" -> 4, "country" -> "USA" |>,
+<| "playerName" -> "Tim Howard", "playerNumber" -> 1, "country" -> "USA" |>,
+<| "playerName" -> "Alejandro Bedoya", "playerNumber" -> 11, "country" -> "USA" |>,
+<| "playerName" -> "Damarcus Beasley", "playerNumber" -> 7, "country" -> "USA" |>,
+<| "playerName" -> "Graham Zusi", "playerNumber" -> 19, "country" -> "USA" |>,
+<| "playerName" -> "Deandre Yedlin", "playerNumber" -> 2, "country" -> "USA" |>,
+<| "playerName" -> "Fabian Johnson", "playerNumber" -> 23, "country" -> "USA" |>,
+<| "playerName" -> "Omar Gonzalez", "playerNumber" -> 3, "country" -> "USA" |>,
+<| "playerName" -> "Chris Wondolowski", "playerNumber" -> 18, "country" -> "USA" |>,
+<| "playerName" -> "Kyle Beckerman", "playerNumber" -> 15, "country" -> "USA" |>,
+<| "playerName" -> "Geoff Cameron", "playerNumber" -> 20, "country" -> "USA" |>,
+<| "playerName" -> "Jermaine Jones", "playerNumber" -> 13, "country" -> "USA" |>
+};

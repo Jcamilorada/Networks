@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Daniel Opare", "playerNumber" -> 4, "country" -> "Ghana" |>,
+<| "playerName" -> "Asamoah Gyan", "playerNumber" -> 3, "country" -> "Ghana" |>,
+<| "playerName" -> "John Boye", "playerNumber" -> 21, "country" -> "Ghana" |>,
+<| "playerName" -> "Michael Essien", "playerNumber" -> 5, "country" -> "Ghana" |>,
+<| "playerName" -> "Jonathan Mensah", "playerNumber" -> 19, "country" -> "Ghana" |>,
+<| "playerName" -> "Kwadwo Asamoah", "playerNumber" -> 20, "country" -> "Ghana" |>,
+<| "playerName" -> "Adam Kwarasey", "playerNumber" -> 12, "country" -> "Ghana" |>,
+<| "playerName" -> "Mohammed Rabiu", "playerNumber" -> 17, "country" -> "Ghana" |>,
+<| "playerName" -> "Kevin Prince Boateng", "playerNumber" -> 9, "country" -> "Ghana" |>,
+<| "playerName" -> "Jordan Ayew", "playerNumber" -> 13, "country" -> "Ghana" |>,
+<| "playerName" -> "Christian Atsu", "playerNumber" -> 7, "country" -> "Ghana" |>,
+<| "playerName" -> "Albert Adomah", "playerNumber" -> 14, "country" -> "Ghana" |>,
+<| "playerName" -> "Sulley Muntari", "playerNumber" -> 11, "country" -> "Ghana" |>,
+<| "playerName" -> "Andre Ayew", "playerNumber" -> 10, "country" -> "Ghana" |>
+};

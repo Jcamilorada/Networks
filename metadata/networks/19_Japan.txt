@@ -1,0 +1,15 @@
+data = { 
+<| "playerName" -> "Makoto Hasebe", "playerNumber" -> 17, "country" -> "Japan" |>,
+<| "playerName" -> "Keisuke Honda", "playerNumber" -> 4, "country" -> "Japan" |>,
+<| "playerName" -> "Shinji Kagawa", "playerNumber" -> 10, "country" -> "Japan" |>,
+<| "playerName" -> "Yoshito Okubo", "playerNumber" -> 13, "country" -> "Japan" |>,
+<| "playerName" -> "Eiji Kawashima", "playerNumber" -> 1, "country" -> "Japan" |>,
+<| "playerName" -> "Maya Yoshida", "playerNumber" -> 22, "country" -> "Japan" |>,
+<| "playerName" -> "Shinji Okazaki", "playerNumber" -> 9, "country" -> "Japan" |>,
+<| "playerName" -> "Hotaru Yamaguchi", "playerNumber" -> 16, "country" -> "Japan" |>,
+<| "playerName" -> "Yuto Nagatomo", "playerNumber" -> 5, "country" -> "Japan" |>,
+<| "playerName" -> "Yasuyuki Konno", "playerNumber" -> 15, "country" -> "Japan" |>,
+<| "playerName" -> "Atsuto Uchida", "playerNumber" -> 2, "country" -> "Japan" |>,
+<| "playerName" -> "Yuya Osako", "playerNumber" -> 18, "country" -> "Japan" |>,
+<| "playerName" -> "Yasuhito Endo", "playerNumber" -> 7, "country" -> "Japan" |>
+};

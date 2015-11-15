@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Antonio Valencia", "playerNumber" -> 16, "country" -> "Ecuador" |>,
+<| "playerName" -> "Walter Ayovi", "playerNumber" -> 10, "country" -> "Ecuador" |>,
+<| "playerName" -> "Alex Ibarra", "playerNumber" -> 5, "country" -> "Ecuador" |>,
+<| "playerName" -> "Alexander Dominguez", "playerNumber" -> 22, "country" -> "Ecuador" |>,
+<| "playerName" -> "Frickson Erazo", "playerNumber" -> 3, "country" -> "Ecuador" |>,
+<| "playerName" -> "Michael Arroyo", "playerNumber" -> 15, "country" -> "Ecuador" |>,
+<| "playerName" -> "Gabriel Achilier", "playerNumber" -> 21, "country" -> "Ecuador" |>,
+<| "playerName" -> "Enner Valencia", "playerNumber" -> 13, "country" -> "Ecuador" |>,
+<| "playerName" -> "Felipe Caicedo", "playerNumber" -> 11, "country" -> "Ecuador" |>,
+<| "playerName" -> "Juan Paredes", "playerNumber" -> 4, "country" -> "Ecuador" |>,
+<| "playerName" -> "Oswaldo Minda", "playerNumber" -> 14, "country" -> "Ecuador" |>,
+<| "playerName" -> "Jorge Guagua", "playerNumber" -> 2, "country" -> "Ecuador" |>,
+<| "playerName" -> "Cristhian Noboa", "playerNumber" -> 6, "country" -> "Ecuador" |>,
+<| "playerName" -> "Jefferson Montero", "playerNumber" -> 7, "country" -> "Ecuador" |>
+};

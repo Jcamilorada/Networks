@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Alan Dzagoev", "playerNumber" -> 10, "country" -> "Russia" |>,
+<| "playerName" -> "Vasily Berezutskiy", "playerNumber" -> 14, "country" -> "Russia" |>,
+<| "playerName" -> "Dmitry Kombarov", "playerNumber" -> 23, "country" -> "Russia" |>,
+<| "playerName" -> "Victor Fayzulin", "playerNumber" -> 20, "country" -> "Russia" |>,
+<| "playerName" -> "Oleg Shatov", "playerNumber" -> 17, "country" -> "Russia" |>,
+<| "playerName" -> "Igor Denisov", "playerNumber" -> 7, "country" -> "Russia" |>,
+<| "playerName" -> "Sergey Ignashevich", "playerNumber" -> 4, "country" -> "Russia" |>,
+<| "playerName" -> "Igor Akinfeev", "playerNumber" -> 1, "country" -> "Russia" |>,
+<| "playerName" -> "Alexander Kokorin", "playerNumber" -> 9, "country" -> "Russia" |>,
+<| "playerName" -> "Denis Glushakov", "playerNumber" -> 8, "country" -> "Russia" |>,
+<| "playerName" -> "Andrey Eshchenko", "playerNumber" -> 22, "country" -> "Russia" |>,
+<| "playerName" -> "Alexander Samedov", "playerNumber" -> 19, "country" -> "Russia" |>,
+<| "playerName" -> "Yury Zhirkov", "playerNumber" -> 18, "country" -> "Russia" |>,
+<| "playerName" -> "Aleksandr Kerzhakov", "playerNumber" -> 11, "country" -> "Russia" |>
+};

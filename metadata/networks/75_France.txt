@@ -1,0 +1,15 @@
+data = { 
+<| "playerName" -> "Laurent Koscielny", "playerNumber" -> 21, "country" -> "France" |>,
+<| "playerName" -> "Mathieu Debuchy", "playerNumber" -> 2, "country" -> "France" |>,
+<| "playerName" -> "Mathieu Valbuena", "playerNumber" -> 8, "country" -> "France" |>,
+<| "playerName" -> "Hugo Lloris", "playerNumber" -> 1, "country" -> "France" |>,
+<| "playerName" -> "Blaise Matuidi", "playerNumber" -> 14, "country" -> "France" |>,
+<| "playerName" -> "Patrice Evra", "playerNumber" -> 3, "country" -> "France" |>,
+<| "playerName" -> "Moussa Sissoko", "playerNumber" -> 18, "country" -> "France" |>,
+<| "playerName" -> "Yohan Cabaye", "playerNumber" -> 6, "country" -> "France" |>,
+<| "playerName" -> "Karim Benzema", "playerNumber" -> 10, "country" -> "France" |>,
+<| "playerName" -> "Paul Pogba", "playerNumber" -> 19, "country" -> "France" |>,
+<| "playerName" -> "Antoine Griezmann", "playerNumber" -> 11, "country" -> "France" |>,
+<| "playerName" -> "Raphael Varane", "playerNumber" -> 4, "country" -> "France" |>,
+<| "playerName" -> "Olivier Giroud", "playerNumber" -> 9, "country" -> "France" |>
+};

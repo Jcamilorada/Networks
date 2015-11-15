@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Ross Barkley", "playerNumber" -> 21, "country" -> "England" |>,
+<| "playerName" -> "Steven Gerrard", "playerNumber" -> 4, "country" -> "England" |>,
+<| "playerName" -> "Jordan Henderson", "playerNumber" -> 14, "country" -> "England" |>,
+<| "playerName" -> "Daniel Sturridge", "playerNumber" -> 9, "country" -> "England" |>,
+<| "playerName" -> "Danny Welbeck", "playerNumber" -> 11, "country" -> "England" |>,
+<| "playerName" -> "Gary Cahill", "playerNumber" -> 5, "country" -> "England" |>,
+<| "playerName" -> "Glen Johnson", "playerNumber" -> 2, "country" -> "England" |>,
+<| "playerName" -> "Joe Hart", "playerNumber" -> 1, "country" -> "England" |>,
+<| "playerName" -> "Raheem Sterling", "playerNumber" -> 19, "country" -> "England" |>,
+<| "playerName" -> "Phil Jagielka", "playerNumber" -> 6, "country" -> "England" |>,
+<| "playerName" -> "Wayne Rooney", "playerNumber" -> 10, "country" -> "England" |>,
+<| "playerName" -> "Jack Wilshere", "playerNumber" -> 7, "country" -> "England" |>,
+<| "playerName" -> "Leighton Baines", "playerNumber" -> 3, "country" -> "England" |>,
+<| "playerName" -> "Adam Lallana", "playerNumber" -> 20, "country" -> "England" |>
+};

@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Emir Spahic", "playerNumber" -> 4, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Tino Sven Susic", "playerNumber" -> 14, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Avdija Vrsajevic", "playerNumber" -> 2, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Miralem Pjanic", "playerNumber" -> 8, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Anel Hadzic", "playerNumber" -> 21, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Sejad Salihovic", "playerNumber" -> 23, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Edin Dzeko", "playerNumber" -> 11, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Ognjen Vranjes", "playerNumber" -> 6, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Edin Visca", "playerNumber" -> 19, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Vedad Ibisevic", "playerNumber" -> 9, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Muhamed Besic", "playerNumber" -> 7, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Toni Sunjic", "playerNumber" -> 15, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Asmir Begovic", "playerNumber" -> 1, "country" -> "BosniaandHerzegovina" |>,
+<| "playerName" -> "Sead Kolasinac", "playerNumber" -> 5, "country" -> "BosniaandHerzegovina" |>
+};

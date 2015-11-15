@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Jan Vertonghen", "playerNumber" -> 5, "country" -> "Belgium" |>,
+<| "playerName" -> "Moussa Dembele", "playerNumber" -> 19, "country" -> "Belgium" |>,
+<| "playerName" -> "Axel Witsel", "playerNumber" -> 6, "country" -> "Belgium" |>,
+<| "playerName" -> "Nacer Chadli", "playerNumber" -> 22, "country" -> "Belgium" |>,
+<| "playerName" -> "Daniel Van Buyten", "playerNumber" -> 15, "country" -> "Belgium" |>,
+<| "playerName" -> "Kevin De Bruyne", "playerNumber" -> 7, "country" -> "Belgium" |>,
+<| "playerName" -> "Divock Origi", "playerNumber" -> 17, "country" -> "Belgium" |>,
+<| "playerName" -> "Toby Alderweireld", "playerNumber" -> 2, "country" -> "Belgium" |>,
+<| "playerName" -> "Dries Mertens", "playerNumber" -> 14, "country" -> "Belgium" |>,
+<| "playerName" -> "Eden Hazard", "playerNumber" -> 10, "country" -> "Belgium" |>,
+<| "playerName" -> "Thibaut Courtois", "playerNumber" -> 1, "country" -> "Belgium" |>,
+<| "playerName" -> "Vincent Kompany", "playerNumber" -> 4, "country" -> "Belgium" |>,
+<| "playerName" -> "Romelu Lukaku", "playerNumber" -> 9, "country" -> "Belgium" |>,
+<| "playerName" -> "Marouane Fellaini", "playerNumber" -> 8, "country" -> "Belgium" |>
+};

@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Stipe Pletikosa", "playerNumber" -> 1, "country" -> "Croatia" |>,
+<| "playerName" -> "Ivan Perisic", "playerNumber" -> 4, "country" -> "Croatia" |>,
+<| "playerName" -> "Ivan Rakitic", "playerNumber" -> 7, "country" -> "Croatia" |>,
+<| "playerName" -> "Mario Mandzukic", "playerNumber" -> 17, "country" -> "Croatia" |>,
+<| "playerName" -> "Dejan Lovren", "playerNumber" -> 6, "country" -> "Croatia" |>,
+<| "playerName" -> "Sime Vrsaljko", "playerNumber" -> 2, "country" -> "Croatia" |>,
+<| "playerName" -> "Mateo Kovacic", "playerNumber" -> 20, "country" -> "Croatia" |>,
+<| "playerName" -> "Ante Rebic", "playerNumber" -> 16, "country" -> "Croatia" |>,
+<| "playerName" -> "Vedran Corluka", "playerNumber" -> 5, "country" -> "Croatia" |>,
+<| "playerName" -> "Danijel Pranjic", "playerNumber" -> 3, "country" -> "Croatia" |>,
+<| "playerName" -> "Darijo Srna", "playerNumber" -> 11, "country" -> "Croatia" |>,
+<| "playerName" -> "Ivica Olic", "playerNumber" -> 18, "country" -> "Croatia" |>,
+<| "playerName" -> "Nikica Jelavic", "playerNumber" -> 9, "country" -> "Croatia" |>,
+<| "playerName" -> "Luka Modric", "playerNumber" -> 10, "country" -> "Croatia" |>
+};

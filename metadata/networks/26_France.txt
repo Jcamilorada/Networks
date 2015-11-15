@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Stephan Lichtsteiner", "playerNumber" -> 2, "country" -> "Switzerland" |>,
+<| "playerName" -> "Johan Djourou", "playerNumber" -> 20, "country" -> "Switzerland" |>,
+<| "playerName" -> "Diego Benaglio", "playerNumber" -> 1, "country" -> "Switzerland" |>,
+<| "playerName" -> "Josip Drmic", "playerNumber" -> 19, "country" -> "Switzerland" |>,
+<| "playerName" -> "Granit Xhaka", "playerNumber" -> 10, "country" -> "Switzerland" |>,
+<| "playerName" -> "Admir Mehmedi", "playerNumber" -> 18, "country" -> "Switzerland" |>,
+<| "playerName" -> "Philippe Senderos", "playerNumber" -> 4, "country" -> "Switzerland" |>,
+<| "playerName" -> "Steve Von Bergen", "playerNumber" -> 5, "country" -> "Switzerland" |>,
+<| "playerName" -> "Haris Seferovic", "playerNumber" -> 9, "country" -> "Switzerland" |>,
+<| "playerName" -> "Ricardo Rodriguez", "playerNumber" -> 13, "country" -> "Switzerland" |>,
+<| "playerName" -> "Xherdan Shaqiri", "playerNumber" -> 23, "country" -> "Switzerland" |>,
+<| "playerName" -> "Blerim Dzemaili", "playerNumber" -> 15, "country" -> "Switzerland" |>,
+<| "playerName" -> "Valon Behrami", "playerNumber" -> 11, "country" -> "Switzerland" |>,
+<| "playerName" -> "Gokhan Inler", "playerNumber" -> 8, "country" -> "Switzerland" |>
+};

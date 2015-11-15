@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "Jo", "playerNumber" -> 21, "country" -> "Brazil" |>,
+<| "playerName" -> "David Luiz", "playerNumber" -> 4, "country" -> "Brazil" |>,
+<| "playerName" -> "Maicon", "playerNumber" -> 23, "country" -> "Brazil" |>,
+<| "playerName" -> "Fernandinho", "playerNumber" -> 5, "country" -> "Brazil" |>,
+<| "playerName" -> "Willian", "playerNumber" -> 19, "country" -> "Brazil" |>,
+<| "playerName" -> "Hulk", "playerNumber" -> 7, "country" -> "Brazil" |>,
+<| "playerName" -> "Thiago Silva", "playerNumber" -> 3, "country" -> "Brazil" |>,
+<| "playerName" -> "Paulinho", "playerNumber" -> 8, "country" -> "Brazil" |>,
+<| "playerName" -> "Oscar", "playerNumber" -> 11, "country" -> "Brazil" |>,
+<| "playerName" -> "Julio Cesar", "playerNumber" -> 12, "country" -> "Brazil" |>,
+<| "playerName" -> "Luiz Gustavo", "playerNumber" -> 17, "country" -> "Brazil" |>,
+<| "playerName" -> "Maxwell", "playerNumber" -> 14, "country" -> "Brazil" |>,
+<| "playerName" -> "Hernanes", "playerNumber" -> 18, "country" -> "Brazil" |>,
+<| "playerName" -> "Ramires", "playerNumber" -> 16, "country" -> "Brazil" |>
+};

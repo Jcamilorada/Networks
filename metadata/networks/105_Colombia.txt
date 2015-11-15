@@ -1,0 +1,16 @@
+data = { 
+<| "playerName" -> "James Rodriguez", "playerNumber" -> 10, "country" -> "Colombia" |>,
+<| "playerName" -> "Victor Ibarbo", "playerNumber" -> 14, "country" -> "Colombia" |>,
+<| "playerName" -> "Juan Zuniga", "playerNumber" -> 18, "country" -> "Colombia" |>,
+<| "playerName" -> "Cristian Zapata", "playerNumber" -> 2, "country" -> "Colombia" |>,
+<| "playerName" -> "Pablo Armero", "playerNumber" -> 7, "country" -> "Colombia" |>,
+<| "playerName" -> "Jackson Martinez", "playerNumber" -> 21, "country" -> "Colombia" |>,
+<| "playerName" -> "Carlos Sanchez", "playerNumber" -> 6, "country" -> "Colombia" |>,
+<| "playerName" -> "Alexander Mejia", "playerNumber" -> 15, "country" -> "Colombia" |>,
+<| "playerName" -> "Mario Yepes", "playerNumber" -> 3, "country" -> "Colombia" |>,
+<| "playerName" -> "Teofilo Gutierrez", "playerNumber" -> 9, "country" -> "Colombia" |>,
+<| "playerName" -> "Santiago Arias", "playerNumber" -> 4, "country" -> "Colombia" |>,
+<| "playerName" -> "Juan Cuadrado", "playerNumber" -> 11, "country" -> "Colombia" |>,
+<| "playerName" -> "David Ospina", "playerNumber" -> 1, "country" -> "Colombia" |>,
+<| "playerName" -> "Abel Aguilar", "playerNumber" -> 8, "country" -> "Colombia" |>
+};
