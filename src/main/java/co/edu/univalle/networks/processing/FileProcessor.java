@@ -103,6 +103,7 @@ public class FileProcessor
         try (Scanner scanner = new Scanner(file))
         {
             ProcesingMode procesingMode = ProcesingMode.SearchingFirstTeam;
+            int firstPlayerPassDataPosition = -1;
 
             while (scanner.hasNextLine())
             {
@@ -118,6 +119,7 @@ public class FileProcessor
                     procesingMode == ProcesingMode.SearchingSecondTeam ) &&
                     firstLineWord.equals(FIRST_COLUMN_WORD))
                 {
+                    firstPlayerPassDataPosition = calculateFirstDataPosition(lineValue);
                     procesingMode = procesingMode == ProcesingMode.SearchingFirstTeam ?
                         ProcesingMode.FirstTeam : ProcesingMode.SecondTeam;
                 }
@@ -129,13 +131,13 @@ public class FileProcessor
 
                 else if (procesingMode == ProcesingMode.FirstTeam)
                 {
-                    PlayerGameData playerGameData = processLine(lineValue);
+                    PlayerGameData playerGameData = processLine(lineValue, firstPlayerPassDataPosition);
                     teamA.add(playerGameData);
                 }
 
                 else if (procesingMode == ProcesingMode.SecondTeam)
                 {
-                    PlayerGameData playerGameData = processLine(lineValue);
+                    PlayerGameData playerGameData = processLine(lineValue, firstPlayerPassDataPosition);
                     teamB.add(playerGameData);
                 }
             }
@@ -152,7 +154,15 @@ public class FileProcessor
         return new GameData(teamA, teamB);
     }
 
-    private PlayerGameData processLine(String line)
+    /* The first not empty column data after TP  */
+    private int calculateFirstDataPosition(String lineValue)
+    {
+        String[] values = lineValue.split(FILE_STRING_SEPARATOR);
+
+        return StringUtils.isBlank(values[2].replaceAll("\"", "")) ? 3 : 2;
+    }
+
+    private PlayerGameData processLine(String line, int starPassesDataPosition)
     {
         List<String> lineValues = Arrays.asList(line.split(FILE_STRING_SEPARATOR));
 
@@ -160,7 +170,7 @@ public class FileProcessor
         String playerName = WordUtils.capitalizeFully(playerSectionInfo.replaceAll(IS_NUMBER_REGEX, ""));
         int playerNumber = Integer.parseInt(playerSectionInfo.replaceAll(IS_NOT_NUMBER_REGEX, ""));
 
-        List<String> passesData = lineValues.subList(2, lineValues.size());
+        List<String> passesData = lineValues.subList(starPassesDataPosition, lineValues.size());
         List<Integer> playerData = new ArrayList<>(passesData.size());
 
         for (String value : passesData)
